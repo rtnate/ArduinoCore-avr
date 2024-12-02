@@ -1,0 +1,27 @@
+set(ARDUINO_CORE_SOURCES
+    ${CMAKE_CURRENT_LIST_DIR}/abi.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/CDC.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/HardwareSerial.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/HardwareSerial0.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/HardwareSerial1.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/HardwareSerial2.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/HardwareSerial3.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/hooks.c
+    ${CMAKE_CURRENT_LIST_DIR}/IPAddress.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/main.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/new.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/PluggableUSB.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/Print.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/Stream.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/Tone.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/USBCore.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/wiring.c
+    ${CMAKE_CURRENT_LIST_DIR}/wiring_analog.c
+    ${CMAKE_CURRENT_LIST_DIR}/wiring_digital.c
+    ${CMAKE_CURRENT_LIST_DIR}/wiring_pulse.c
+    ${CMAKE_CURRENT_LIST_DIR}/wiring_pulse.S
+    ${CMAKE_CURRENT_LIST_DIR}/wiring_shift.c
+    ${CMAKE_CURRENT_LIST_DIR}/WMath.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/WString.cpp
+    PARENT_SCOPE
+)
