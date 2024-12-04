@@ -8,6 +8,8 @@ add_library(arduino_AvrCore STATIC ${ARDUINO_CORE_SOURCES})
 
 target_include_directories(arduino_AvrCore PUBLIC ${CMAKE_CURRENT_LIST_DIR}/cores/arduino)
 
+target_compile_definitions(arduino_AvrCore PUBLIC "ARDUINO=10816")
+
 if(ARDUINO_USB)
     target_compile_definitions(arduino_AvrCore PUBLIC
         USB_VID=${ARDUINO_USB_VID}
